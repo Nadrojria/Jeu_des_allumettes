@@ -12,7 +12,7 @@ body {
     font-family: "Atma", system-ui;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .numOfPlayer_container {
     text-align: center;
 }
 
@@ -24,4 +24,13 @@ h1, h2, h3 {
 select {
     border-radius: 7px;
     font-family: "Atma", system-ui;
+}
+
+.allSelect {
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.labelPlayer {
+    padding: 10px;
 }

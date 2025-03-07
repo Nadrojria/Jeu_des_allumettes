@@ -13,62 +13,18 @@
     <h1>Jeu des allumettes</h1>
     <h2>Retire des allumettes, si tu as la dernière, tu gagnes !</h2>
     <hr>
-    <div id="numOfPlayer_container">
-        <label for="numOfPlayer">Combien de joueurs ?</label>
-        <select name="numOfPlayer" id="numOfPlayer" class="numOfPlayer">
-            <option value=""></option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-        </select>
-    <hr>
-    </div>
-    <div id="playerAndMatches">
-        <h3 id="numOfMatches">Il y a 20 allumettes</h3>
-        <label for="playerOne" id="namePlayerOne">Joueur 1</label>
-        <select name="playerOne" id="playerOne" class="playerOne">
-            <option value="">--Make a choice--</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
-        <br>
-        <label for="playerTwo" id="namePlayerTwo">Joueur 2</label>
-        <select name="playerTwo" id="playerTwo" class="playerTwo">
-            <option value="">--Make a choice--</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
-        <br>
-        <label for="playerThree" id="namePlayerThree">Joueur 3</label>
-        <select name="playerThree" id="playerThree" class="playerThree">
-            <option value="">--Make a choice--</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
-        <br>
-        <label for="playerFour" id="namePlayerFour">Joueur 4</label>
-        <select name="playerFour" id="playerFour" class="playerFour">
-            <option value="">--Make a choice--</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
+    <h3 id="numOfMatches">Il y a 20 allumettes</h3>
+        <div class="numOfPlayer_container">
+            <label for="numOfPlayers" id="HowMuchPlayers">Combien de joueurs ?</label>
+            <select name="numOfPlayers" id="numOfPlayers" class="numOfPlayers">
+                <!-- selected disabled hidden permet que ce choix ne soit pas cliquable -->
+                <option value="" selected disabled hidden></option> 
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+    <div id="displayContainerPlayer">
     </div>
 </body>
 </html>
